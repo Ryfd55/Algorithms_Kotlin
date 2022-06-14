@@ -1,13 +1,6 @@
 import kotlin.random.Random
 
-/**                 task_5      Разделение и объединение массивов (zip)
-*/
-//Создать массив с Фамилиями и именами
-//Создать массив с телефонными номерами
-//Образовать новый массив с фамилиями и номерами телефонов (без имен)
-
-
-fun printInfo5 () {
+fun printInfo5() {
     val phones = mutableListOf<Any>()
     val nameSurname = mutableListOf<String>()
 
