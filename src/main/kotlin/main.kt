@@ -1,8 +1,13 @@
 import kotlin.random.Random
 
+
 fun main() {
 
 
+    /**                      task_7     Простые числа
+     */
+//    val n =255
+//    printInfo7(n)
 
 
     /**                      task_6     Задачи по "map"
