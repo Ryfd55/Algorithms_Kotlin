@@ -1,3 +1,5 @@
+import java.util.*
+
 fun result(brick: List<Int>, hole: List<Int>) {
 
     val sortBrick = brick.sorted()
@@ -7,3 +9,23 @@ fun result(brick: List<Int>, hole: List<Int>) {
     else
         println("Кирпич со сторонами $brick НЕ ПРОЙДЕТ сквозь отверстие сос торонами $hole")
 }
+class Dog {
+
+    var name = "df"
+    get() = name.lowercase(Locale.getDefault())
+
+
+
+    var age = 4
+    set (value){
+        if (value > 0)
+            field = value
+    }
+    var weight = 0f
+        set (value){
+            if (value > 0)
+                field = value
+        }
+
+}
+
