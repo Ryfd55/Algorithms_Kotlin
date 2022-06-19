@@ -10,3 +10,4 @@ class Worker(val name1: String, val post: String, val year: Int){
         println("работаю")
     }
 }
+
