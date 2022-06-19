@@ -14,8 +14,6 @@ class Dog {
 
     var name = "df"
         get() = name.lowercase(Locale.getDefault())
-
-
     var age = 4
         set(value) {
             if (value > 0)
@@ -26,6 +24,6 @@ class Dog {
             if (value > 0)
                 field = value
         }
-
 }
+/**--------------------------------------------------------------------------------------------*/
 
