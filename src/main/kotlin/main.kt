@@ -11,12 +11,12 @@ fun main() {
     Добавить свойство "Стаж"
     В файле main создать extention-функцию, которая выводит всю информацию о работнике
      */
-val worker = Worker("Jimm", "director", 2011)
-    worker.printInfo()
-}
-fun Worker.printInfo() {
-    println("Имя $name1, должность $post, стаж работы $exp лет")
-}
+//val worker = Worker("Jimm", "director", 2011)
+//    worker.printInfo()
+//}
+//fun Worker.printInfo() {
+//    println("Имя $name1, должность $post, стаж работы $exp лет")
+//}
     /**---------------------------------------------------------------------------------------------
     TASK_10     Logical
 
@@ -26,10 +26,10 @@ fun Worker.printInfo() {
     кирпич 4 х 4 х 4 пройдёт через отверстие 4 х 4.
     Вернуть true, если кирпич пройдёт
      */
-//    val brick = mutableListOf(10, 25, 12)
-//    val hole = listOf(14, 15)
-//    result(brick, hole)
-//    }
+    val brick = mutableListOf(10, 25, 12)
+    val hole = listOf(14, 15)
+    result(brick, hole)
+}
     /**---------------------------------------------------------------------------------------------
     TASK_9    Logical
 
