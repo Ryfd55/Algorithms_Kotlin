@@ -1,18 +1,19 @@
 fun differentNumbers(n: Int): Int {
     val setOfNumbers: MutableSet<Int> = mutableSetOf()
     var year = n
-    var number:Int
-    var temp: Int
-    for (i in n..2015) {
-        year++
+    var number: Int
+    for (i in n + 1..9000) {
         setOfNumbers.clear()
-        temp = year             //каждый следующий год, который мы проверяем
+        var temp = i
         for (j in 1..4) {
-            number = temp % 10  //цифра в годе
+            number = temp % 10
             setOfNumbers.add(number)
-            temp /= 10          //оставшиеся цифры в годе
+            temp /= 10
         }
-        if (setOfNumbers.size == 4) break
+        if (setOfNumbers.size == 4) {
+            year = i
+            break
+        }
     }
-    return (year)
+    return year
 }
